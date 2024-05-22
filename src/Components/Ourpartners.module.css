@@ -1,0 +1,83 @@
+.TopHeading {
+  height: 360px !important;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.TopHeading h1{
+  color: #212529;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: poppins, sans-serif;
+    line-height: 56.32px;
+}
+.Leftheadingtext{
+  padding: 0px !important;
+  margin-top: 25px;
+}
+.Leftheadingtext h2{
+  color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 52px;
+}
+@media only screen and (max-width: 768px){
+  .Leftheadingtext h2{
+    font-size: 24px;
+}
+}
+  
+.Leftheadingtext p{
+  color: #5f6b75;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+}
+/* .BannerImage {
+
+} */
+.BannerImage img{
+  max-width:100% ;
+  height: auto;
+}
+/* @media only screen and (max-width: 768px) {
+  .BannerImage img {
+    max-width: 100%;
+    height: auto;
+  }
+} */
+.middilealltext{
+  padding: 0px;
+  margin-bottom: 70px;
+}
+.middilealltext p{
+  color: #5f6b75;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+.middilealltext h1{
+  font-family: futura-pt;
+  color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+.Imgwithpara p{
+  box-sizing: border-box;
+  color: #000000;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    margin: 0px auto;
+    margin: 30px 0px;
+    max-width: 100%;
+
+}

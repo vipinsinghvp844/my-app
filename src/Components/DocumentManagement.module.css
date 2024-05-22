@@ -1,0 +1,111 @@
+/* 1st conatainer css start hear*/
+Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DocumentM h1 {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 68px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.DocumentM .Rowheight {
+  height: 360px;
+  display: flex;
+  align-items: center;
+}
+.DocumentM h2 {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 52px;
+  margin-bottom: 15px;
+}
+.DocumentM p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+.DocumentM2{
+  margin-bottom: 70px;
+}
+.DocumentM2 img {
+  width: 160px;
+  height: 130px;
+}
+.particulerdiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.particulerdiv h3 {
+  color: #000000;
+  font-family: "poppins";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-left: 30px;
+}
+.particulerdiv2 {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+}
+.particulerdiv2 h3 {
+  line-height: 0px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "poppins";
+}
+.particulerdiv3 h3{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 38px;
+  margin-bottom: 15px;
+  font-family: "poppins";
+}
+
+.DocumentM2 p{
+  box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+.DocumentM2 i{
+  font-weight: 900;
+  font-size: 25px;
+}
+.Documentbutton{
+  margin-top: 50px;
+}
+.reviewdiv{
+  margin-top: 50px;
+}
+.image1st{
+  width: 183px !important;
+  height: 60px !important;
+  margin-right: 10px;
+}
+.image2nd{
+  width: 155px !important;
+  height: 63px !important;
+  margin-right: 10px;
+}
+.image3rd{
+  width: 95px !important;
+  height: 64px !important;
+}

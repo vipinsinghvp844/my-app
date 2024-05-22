@@ -1,0 +1,614 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+ @import url('https://fonts.cdnfonts.com/css/futura-pt');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/*only Blogpage related css*/
+.card-equal{
+      box-shadow: 0px 4px 20px 0 rgb(0 0 0 / 10%);
+      border-radius: 5px;
+}
+
+
+
+
+/*only Blogpage related css*/
+ #root {
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  font-family: poppins, sans-serif;
+}
+/* header css start */
+.dropdown-menu {
+  position: absolute !important;
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+  margin-top: 0 !important;
+}
+
+.fixed-top {
+  transition: all 0.3s ease-in-out !important;
+}
+
+.fixed-top.scrolled {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  background-color: white !important;
+  /* Adjust as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Optional shadow for effect */
+  z-index: 1000 !important;
+  /* Ensure the header stays on top */
+
+}
+.d-inline-block {
+  height: auto !important;
+  /* Ensure it retains its aspect ratio */
+  transition:  0.3s ease-in-out !important;
+}
+.scrolled-logo {
+  height: 88px !important;
+  width: 88px !important;
+  /* Set the height to 88px when scrolled */
+}
+
+
+
+.navbar-brand img {
+  width: 106px;
+  height: 106px;
+}
+.navbar {
+  --bs-navbar-padding-y: 0rem !important;
+  --bs-navbar-brand-padding-y: 0rem !important;
+}
+.H20year {
+  height: 68px !important;
+  width: 162px !important;
+}
+.menushift {
+  padding-left: 75px !important;
+  height: 65px;
+}
+.menucoloR a{
+  color:#ffffff !important;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+}
+.dropdownitemm a{
+  color: #000000 !important;
+  font-size: 15px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    line-height: 28px;
+}
+.Loginbtnn {
+  margin-right: 103px;
+  background-color: #4ac4f3 !important;
+  border-radius: 50px !important;
+  border: none !important;
+  color: #ffffff !important;
+  font-family: "Open Sans" !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 28px !important;
+  padding: 7px 25px !important;
+}
+/* header css end*/
+/*hero section css*/
+.bg-img-container {
+  background-image: url(C:\Windows\System32\my-app\src\assets\Homebannerbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Adjust as needed */
+}
+.content {
+  margin-top: 100px;
+
+  /* Adjust as needed */
+}
+
+.img-container {
+  text-align: center;
+  margin-top: 50px;
+  /* Adjust as needed */
+}
+
+.content-img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+.FreeDemobtn {
+  background-color: #d42027 !important;
+  border-radius: 50px !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+  font-family: Poppins, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  line-height: 30px !important;
+  padding: 17px 45px !important;
+  border: none !important;
+  margin-right: 60px;
+}
+.FreeDemobtn:hover {
+  background-color: #4ac4f3 !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 25px !important;
+  border-radius: 50px !important;
+  border: none !important;
+  transform: translateY(-5px);
+  transition: all 0.3s ease 0s;
+}
+/* hero section css end*/
+
+iframe {
+  width: 950px;
+  height: 540px;
+  margin-left: -200px;
+}
+.modalbtn{
+  max-width: 70px;
+}
+.modalbtn button {
+  background-color: #d42027;
+  border-radius: 50%;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  height: 65px;
+  overflow: hidden;
+  width: 65px;
+}
+@keyframes modalbtn {
+  0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.1);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+.modalbtn {
+  animation: modalbtn 2s infinite;
+}
+.modalbtn button:hover {
+  background-color: #f24646;
+  outline: 0px;
+  text-decoration: underline;
+}
+.Oursoftware {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.Oursoftware h1 {
+  color: #000000;
+  font-family: Poppins, sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 52px;
+}
+.Oursoftware p {
+  letter-spacing: 0.25px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: poppins, sans-serif;
+  line-height: 26px;
+  color: #5c5c5c;
+  margin-top: 35px;
+}
+
+/* home image carousel css*/
+.Trustedworldwide2 h2 {
+  color: #000000;
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.Trustedworldwide a.carousel-control-prev {
+  width: 33px !important;
+  height: 34px !important;
+  background: red !important;
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+  top: 40px;
+}
+
+.Trustedworldwide a.carousel-control-next {
+  width: 33px !important;
+  height: 34px !important;
+  background: red !important;
+  opacity: 1;
+  top: 0px;
+  right: 0px;
+  border-radius: 5px;
+  top: 40px;
+}
+.Trustedworldwide2 a.carousel-control-prev {
+  width: 33px !important;
+  height: 34px !important;
+  background: red !important;
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+  top: 90px;
+}
+
+.Trustedworldwide2 a.carousel-control-next {
+  width: 33px !important;
+  height: 34px !important;
+  background: red !important;
+  opacity: 1;
+  top: 0px;
+  right: 0px;
+  border-radius: 5px;
+  top: 90px;
+}
+.carousellitem1 {
+  padding: 0 66px 0 87px;
+}
+.carousellimg {
+  padding: 0px 117px 0 145px;
+}
+
+.carousellitem1 {
+  margin: 10px 0 35px 0;
+}
+.carousellimg {
+  margin: 70px 0px 100px 0px;
+}
+
+.carousellimg img {
+  width: 82px;
+  height: 82px;
+}
+.carousellimg h3 {
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+}
+
+.carousel-indicators button {
+  border: 2px solid red !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50px !important;
+}
+.carousel-indicators button.active {
+  background-color: red !important;
+  width: 20px !important;
+  height: 10px !important;
+  border-radius: 50px !important;
+}
+
+/*home carousel css end*/
+
+/*home section 5th css start*/
+.content h2 {
+  color: #000000;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "poppins", sans-serif;
+  line-height: 52px;
+  margin-bottom: 15px;
+}
+.content p {
+  letter-spacing: 0.25px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color: #5c5c5c;
+}
+.content h3 {
+  color: "#000000";
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "poppins", sans-serif;
+  line-height: 30px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.checkicon {
+  padding: 0px 15px 0px 0px;
+}
+.checkpara {
+  margin-left: 33px;
+}
+
+/*home section 5th css end */
+
+.Cloudfliler{
+  margin: 110px 0px 0px 0px;
+}
+
+.Cloudfliler h1{
+ margin-bottom: 35px;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 52px;
+}
+.Cloudfliler p{
+      letter-spacing:0.25px;
+      font-size:16px;
+      font-weight:500;
+      font-family:"poppins",sans-serif;
+      line-height:26px;
+      margin-bottom:20px;
+      color:#5c5c5c;
+      text-align: justify;
+}
+/*home section 6th css end */
+/*home section 7th css  */
+.content2{
+  margin: 25px 0px 0px 0px;
+}
+.content2 h3{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "poppins", sans-serif;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.checkpara2 {
+  margin-left: 61px;
+  letter-spacing: 0.25px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: #5c5c5c;
+    text-align: justify;
+}
+.cardmaking{
+  transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s, transform 0.4s ease 0s;
+  padding: 20px 20px 5px 20px;
+}
+.cardmaking:hover{
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 0px 20px 0px;
+}
+/*home section 7th css end */
+
+
+/*home section 8th css  */
+
+.Clientportal {
+  background-image: url(C:\Windows\System32\my-app\src\assets\RedblankbgimageHOME.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 0px 10px 0px;
+
+}
+.Clientportal h1{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 52px;
+    margin-bottom: 15px;
+}
+.Clientportal p {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    margin-bottom: 40px;
+    text-align: justify;
+
+}
+
+
+
+/*home section 8th css end */
+/*home section 9th css */
+.WebsiteHosting9{
+  margin-bottom: 170px;
+}
+
+/*home section 9th css end */
+.Biggbuttonhome {
+  background-color: #d42027 !important;
+  border-radius: 50px !important;
+  border: none !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+  font-family: Poppins, sans-serif !important;
+  font-size: 19px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  line-height: 30px !important;
+  padding: 17px 45px !important;
+}
+.Biggbuttonhome:hover {
+  background-color: #4ac4f3 !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 25px !important;
+  color: #ffffff !important;
+  transform: translateY(-5px) !important;
+  transition: all 0.3s ease 0s !important;
+}
+
+
+.DesCodDel{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .18);
+}
+.DesCodDel img{
+  width: 107px;
+  height: 107px;
+  opacity: 0.5;
+}
+.DesCodDel h4{
+  background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+
+}
+.DesCodDel:hover img{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/* Custom styles for full-width row */
+.full-width-row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styling for background image row */
+.bg-image-row {
+  background-image: url("C:\Windows\System32\my-app\src\assets\bg image from Home bottom.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  max-height: 532px;
+  /* Text color */
+
+  /* Center align text */
+  padding: 60px 0;
+  /* Add padding for content */
+}
+
+.bg-image-row h2,
+.bg-image-row p {
+  margin-bottom: 20px;
+  /* Add spacing between elements */
+  font-size: 20px;
+}
+
+/* Styles for the app store images */
+.app-store-images img {
+  width: 200px;
+  /* Set the width of the app store images */
+  margin-right: 10px;
+  /* Add spacing between images */
+}
+
+/*Footer css start hear*/
+.footer-column p {
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+  line-height: 26px;
+  margin: 0px auto;
+  margin: 20px 0;
+}
+
+.footer-logo {
+  width: 241px;
+  /* Adjust the width as needed */
+  height: 98px;
+}
+
+.icon1 {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: transparent;
+  align-items: center;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+}
+.footerimg img {
+  margin: 0 8px;
+  border-radius: 10px;
+}
+.footercopyright {
+  text-align: center;
+  color: #ffffff;
+  padding: 30px 0;
+}
+
+/*recent post slider button css*/
+
+a.carousel-control-prev {
+  width: 40px !important;
+  height: 40px !important;
+  background: red !important;
+  opacity: 1;
+  position: absolute;
+  top: 445px;
+  left: 518px;
+  border-radius: 5px;
+}
+
+a.carousel-control-next {
+  width: 40px !important;
+  height: 40px !important;
+  background: red !important;
+  opacity: 1;
+  position: absolute;
+  top: 445px;
+  right: 492px;
+  border-radius: 5px;
+}
+
+/*recent post slider button css end*/
+/*Questation ans accordion  css*/
+.accordion-button::after {
+  content: none !important;
+}
+.accordion-item{
+  background-color: transparent !important;
+  border-radius: 0px !important;
+}
+.accordion-button{
+  color: #000000 !important;
+  background-color: transparent;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    word-wrap: break-word;
+}
+.accordion-button:hover{
+  color:#1ed5a4 !important;
+}
+
+/*plus minus color*/
+.cOlOr{
+  color: #000000 !important;
+}
+/* end*/
+/*Questation ans accordion css end*/
+   

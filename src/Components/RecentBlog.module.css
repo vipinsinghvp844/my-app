@@ -1,0 +1,65 @@
+.RecBlogMainC{
+  padding:100px 0px 50px 0px ;
+  align-items: center;
+}
+
+.RecentBlogHeading{
+  text-align: center;
+}
+.Reccarousell{
+  height: 559px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.PostcaroumgHome{
+  height: 221px;
+  width: 350px !important;
+}
+.CardIttem{
+  width: 352px;
+  height: 436px;
+}
+.PostDate {
+  color: #000000;
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 15px;
+  line-height: 26px;
+  display: flex;
+}
+.PostDate .HoverButtonn {
+position:absolute;
+top: 210px;
+left:270px;
+}
+.PostTitle {
+  color: #1e1666 !important;
+  font-family: futura-pt !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.7px !important;
+  line-height: 35px !important;
+}
+.WebsiteAuther {
+  color: #6a7c92 !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px !important;
+  line-height: 1.8;
+}
+.HoverButtonn{
+  display: none;
+  border-radius: 50px;
+  width: 55px;
+  height: 55px;
+  color: #d75358;
+}
+.HoverButtonn:hover{
+background-color: #d75358;
+-webkit-font-smoothing: antialiased;
+color: white;
+border:none;
+transition: 1s;
+}
+.rama:hover .HoverButtonn{
+  display: block;  
+  transition: 1s;
+}
